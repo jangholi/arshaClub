@@ -64,10 +64,33 @@ body{
 .section2-left-div{
     background-color: #f9f9f9!important;
 }
+/* -------------------------------------------------- second three */
+.third-section{
+    background-color: #003054;
+}
+.white-color{
+    color: white;
+}
+.light-title{
+    /*font-size: 28px;*/
+    color: #b3b3b3;
+    font-weight: bold;
+}
+.submit-btn{
+    background-color: #b3b3b3!important;
+    /* font-size: 36px; */
+    color: #ffffff!important;
+    font-weight: bold!important;
+    padding: 7px 40px!important;
+    border-radius: 0!important;
+}
 /* -------------------------------------------------- global classes */
 .mt-30{
     margin-top: 30px!important;
 }
 .mb-30{
     margin-bottom: 30px!important;
+}
+input{
+    border-radius: 0!important;
 }
