@@ -18,7 +18,7 @@
 //         scrollTop: $("#contactUs").offset().top
 //     }, 2000);
 // })
-$(".slider").slick({
+$(".into-slider").slick({
     // rtl: true,
     dots: true,
     autoplay: true,
