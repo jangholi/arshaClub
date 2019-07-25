@@ -1,6 +1,7 @@
 body{
     font-family: 'diodrum'!important;
 }
+/* -------------------------------------------------- first section */
 .slider{
     height: calc(100% - 100px)!important;
 }
@@ -20,7 +21,7 @@ body{
 .menu-intro div{
     min-height: 135px;
 }
-.menu-intro p{
+.blue-title{
     /*font-size: 28px;*/
     font-size: 1rem;
     color: #0060ae;
@@ -52,4 +53,21 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+}
+/* -------------------------------------------------- second section */
+.section2-right-div{
+    background-image: url("../assets/images/about-arsha-web.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.section2-left-div{
+    background-color: #f9f9f9!important;
+}
+/* -------------------------------------------------- global classes */
+.mt-30{
+    margin-top: 30px!important;
+}
+.mb-30{
+    margin-bottom: 30px!important;
 }
