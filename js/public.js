@@ -18,3 +18,11 @@
 //         scrollTop: $("#contactUs").offset().top
 //     }, 2000);
 // })
+$(".slider").slick({
+    // rtl: true,
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    arrows: false,
+    rtl: true
+});
