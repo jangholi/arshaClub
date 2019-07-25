@@ -1,5 +1,5 @@
 body{
-    font-family: diodrum!important;
+    font-family: 'diodrum'!important;
 }
 .slider{
     height: calc(100% - 100px)!important;
@@ -16,6 +16,15 @@ body{
 .menu-intro{
     min-height: 135px;
     background-color:  #f9f9f9;
+}
+.menu-intro div{
+    min-height: 135px;
+}
+.menu-intro p{
+    /*font-size: 28px;*/
+    font-size: 1rem;
+    color: #0060ae;
+    font-weight: bold;
 }
 .slick-dots{
     bottom: 16px!important;
