@@ -7,6 +7,9 @@ body{
 .slider img{
     width: 100%;
 }
+.slick-slide{
+    height: calc(100% - 100px)!important;
+}
 .logo-intro{
     min-height: 80px!important;
 }
@@ -21,5 +24,23 @@ body{
     margin-bottom: 0!important;
 }
 .heigh50{
-    height: 50px;
+    height: 50px!important;
+}
+.first-slide{
+    background-image: url("../assets/images/slide-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.second-slide{
+    background-image: url("../assets/images/slide-02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.third-slide{
+    background-image: url("../assets/images/slide-03.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }
