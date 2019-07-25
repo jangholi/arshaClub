@@ -7,3 +7,16 @@ body{
 .slider img{
     width: 100%;
 }
+.logo-intro{
+    min-height: 80px;
+}
+.menu-intro{
+    min-height: 135px;
+    background-color:  #f9f9f9;
+}
+.slick-dots{
+    bottom: 16px!important;
+}
+.slick-dotted.slick-slider{
+    margin-bottom: 0!important;
+}
