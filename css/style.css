@@ -165,6 +165,20 @@ body{
     font-family: diodrumSemibold;
     color: rgb(0, 50, 85);
 }
+/* -------------------------------------------------- footer */
+.border-btm-footer{
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+.footer-font{
+    color: white;
+    font-size: 12px;
+    font-family: diodrum;
+}
+.scale-image{
+    transform: scale(0.8)!important;
+    margin-left: 18px;
+}
 /* -------------------------------------------------- global classes */
 .mt-30{
     margin-top: 30px!important;
