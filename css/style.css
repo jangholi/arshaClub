@@ -19,7 +19,25 @@ body{
     background-color:  #f9f9f9;
 }
 .menu-intro div{
-    min-height: 132px;
+    min-height: 82px;
+}
+@media only screen and (min-width: 994px) {
+    .registery-div{
+        border-right: 1px solid #0060AE;
+        border-left: 1px solid #0060AE;
+        min-height: 81px;
+    }
+}
+@media only screen and (max-width: 990px) {
+    .registery-div{
+        border-top: 1px solid #0060AE;
+        border-bottom: 1px solid #0060AE;
+        min-height: 81px;
+        width: fit-content;
+        margin: 0 auto;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
 }
 .blue-title{
     font-size: 18px;
@@ -34,6 +52,11 @@ body{
 }
 .heigh51{
     height: 51px!important;
+}
+.hedset-icon{
+    height: 26px!important;
+    position: absolute;
+    left: 0;
 }
 .first-slide{
     background-image: url("../assets/images/slide-01.jpg");
