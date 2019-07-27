@@ -65,12 +65,6 @@ body{
     background-color: #f9f9f9!important;
 }
 /* -------------------------------------------------- second three */
-.third-section{
-    background-color: #003054;
-}
-.white-color{
-    color: white;
-}
 .light-title{
     /*font-size: 28px;*/
     color: #b3b3b3;
@@ -84,6 +78,8 @@ body{
     padding: 7px 40px!important;
     border-radius: 0!important;
 }
+/* -------------------------------------------------- four three */
+
 /* -------------------------------------------------- global classes */
 .mt-30{
     margin-top: 30px!important;
@@ -93,4 +89,17 @@ body{
 }
 input{
     border-radius: 0!important;
+}
+.green-color{
+    color: #00a551;
+    font-weight: bold;
+}
+.gray-bg{
+    background-color: #b3b3b3!important;
+}
+.dark-blue-bg{
+    background-color: #003054;
+}
+.white-color{
+    color: white;
 }
