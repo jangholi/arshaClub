@@ -27,6 +27,9 @@ body{
         border-left: 1px solid #0060AE;
         min-height: 81px;
     }
+    .section2-right-div{
+        background-image: url("../assets/images/about-arsha-web.jpg");
+    }
 }
 @media only screen and (max-width: 990px) {
     .registery-div{
@@ -37,6 +40,9 @@ body{
         margin: 0 auto;
         padding-right: 40px;
         padding-left: 40px;
+    }
+    .section2-right-div{
+        background-image: url("../assets/images/about-arsha-mobile.jpg");
     }
 }
 .blue-title{
@@ -86,7 +92,6 @@ body{
 }
 /* -------------------------------------------------- second section */
 .section2-right-div{
-    background-image: url("../assets/images/about-arsha-web.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -108,6 +113,10 @@ body{
     font-weight: bold!important;
     padding: 7px 40px!important;
     border-radius: 0!important;
+}
+.description{
+    font-size: 12px;
+    line-height: 30px;
 }
 /* -------------------------------------------------- five three */
 
@@ -167,4 +176,10 @@ input{
 }
 .pointer{
     cursor: pointer!important;
+}
+.pt-40{
+    padding-top: 40px!important;
+}
+.pb-40{
+    padding-bottom: 40px!important;
 }
