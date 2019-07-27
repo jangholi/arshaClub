@@ -136,7 +136,7 @@ body{
 }
 /* -------------------------------------------------- four three */
 .wide-blue-header{
-    height: 54px;
+    height: 54px!important;
     font-family: diodrumBold;
     font-size: 18px;
     padding-right: 10px;
@@ -144,7 +144,7 @@ body{
     color: white!important;
 }
 .thin-blue-header{
-    height: 31px;
+    height: 31px!important;
     font-family: diodrumSemibold;
     font-size: 18px;
     padding-right: 10px;

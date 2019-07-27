@@ -13,6 +13,31 @@ $('#packagesMenu').click(function() {
         scrollTop: $("#packages").offset().top
     }, 2000);
 })
+$('#3MonthBaseMenu').click(function() {
+    $('html, body').animate({
+        scrollTop: $("#3MonthBase").offset().top
+    }, 2000);
+})
+$('#3MonthPublicMenu').click(function() {
+    $('html, body').animate({
+        scrollTop: $("#3MonthPublic").offset().top
+    }, 2000);
+})
+$('#3MonthSkilledMenu').click(function() {
+    $('html, body').animate({
+        scrollTop: $("#3MonthSkilled").offset().top
+    }, 2000);
+})
+$('#worksMenu').click(function() {
+    $('html, body').animate({
+        scrollTop: $("#works").offset().top
+    }, 2000);
+})
+$('#learnMenu').click(function() {
+    $('html, body').animate({
+        scrollTop: $("#learn").offset().top
+    }, 2000);
+})
 $(".into-slider").slick({
     // rtl: true,
     dots: true,
