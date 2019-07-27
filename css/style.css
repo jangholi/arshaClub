@@ -165,3 +165,6 @@ input{
 .min-height15{
     min-height: 15px;
 }
+.pointer{
+    cursor: pointer!important;
+}

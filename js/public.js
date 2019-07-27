@@ -1,23 +1,18 @@
-// $('#aboutMenu').click(function() {
-//     $('html, body').animate({
-//         scrollTop: $("#about").offset().top
-//     }, 2000);
-// })
-// $('#projectsMenu').click(function() {
-//     $('html, body').animate({
-//         scrollTop: $("#projects").offset().top
-//     }, 2000);
-// })
-// $('#contactMenu').click(function() {
-//     $('html, body').animate({
-//         scrollTop: $("#contactUs").offset().top
-//     }, 2000);
-// })
-// $('#gotoContact').click(function() {
-//     $('html, body').animate({
-//         scrollTop: $("#contactUs").offset().top
-//     }, 2000);
-// })
+$('#aboutMenu').click(function() {
+    $('html, body').animate({
+        scrollTop: $("#about").offset().top
+    }, 2000);
+})
+$('#registerMenu').click(function() {
+    $('html, body').animate({
+        scrollTop: $("#register").offset().top
+    }, 2000);
+})
+$('#packagesMenu').click(function() {
+    $('html, body').animate({
+        scrollTop: $("#packages").offset().top
+    }, 2000);
+})
 $(".into-slider").slick({
     // rtl: true,
     dots: true,
