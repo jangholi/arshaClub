@@ -102,16 +102,16 @@ body{
 }
 /* -------------------------------------------------- second three */
 .light-title{
-    /*font-size: 28px;*/
-    color: #b3b3b3;
-    font-weight: bold;
+    font-size: 18px;
+    color: rgb(179, 179, 179);
+    font-family: 'diodrumSemibold';
 }
 .submit-btn{
     background-color: #b3b3b3!important;
-    /* font-size: 36px; */
+    font-size: 12px;
+    font-family: 'diodrumSemibold';
     color: #ffffff!important;
-    font-weight: bold!important;
-    padding: 7px 40px!important;
+    padding: 2px 40px!important;
     border-radius: 0!important;
 }
 .description{
@@ -126,6 +126,12 @@ body{
 }
 .mb-30{
     margin-bottom: 30px!important;
+}
+.pt-60{
+    padding-top: 60px!important;
+}
+.pb-60{
+    padding-bottom: 60px!important;
 }
 .pt-90{
     padding-top: 90px!important;
@@ -153,20 +159,27 @@ input{
     text-align: justify!important;
 }
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color: #b3b3b3!important;
-    font-weight: bold;
+    color: rgb(179, 179, 179)!important;
+    font-size: 12px;
+    font-family: 'diodrumSemibold';
 }
 ::-moz-placeholder { /* Firefox 19+ */
-    color: #b3b3b3!important;
-    font-weight: bold;
+    color: rgb(179, 179, 179)!important;
+    font-size: 12px;
+    font-family: 'diodrumSemibold';
 }
 :-ms-input-placeholder { /* IE 10+ */
-    color: #b3b3b3!important;
-    font-weight: bold;
+    color: rgb(179, 179, 179)!important;
+    font-size: 12px;
+    font-family: 'diodrumSemibold';
 }
 :-moz-placeholder { /* Firefox 18- */
-    color: #b3b3b3!important;
-    font-weight: bold;
+    color: rgb(179, 179, 179)!important;
+    font-size: 12px;
+    font-family: 'diodrumSemibold';
+}
+input ,button{
+    height: 31px!important;
 }
 .min-height30{
     min-height: 30px;
