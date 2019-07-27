@@ -45,6 +45,22 @@ body{
         background-image: url("../assets/images/about-arsha-mobile.jpg");
     }
 }
+@media only screen and (min-width: 577px) {
+    .large-table{
+        display: block!important;
+    }
+    .small-table{
+        display: none!important;
+    }
+}
+@media only screen and (max-width: 577px) {
+    .large-table{
+        display: none!important;
+    }
+    .small-table{
+        isplay: block!important;
+    }
+}
 .blue-title{
     font-size: 18px;
     color: #0060AE;
@@ -100,7 +116,7 @@ body{
 .light-gray-bg{
     background-color: #f9f9f9!important;
 }
-/* -------------------------------------------------- second three */
+/* -------------------------------------------------- third section */
 .light-title{
     font-size: 18px;
     color: rgb(179, 179, 179);
@@ -118,8 +134,37 @@ body{
     font-size: 12px;
     line-height: 30px;
 }
-/* -------------------------------------------------- five three */
-
+/* -------------------------------------------------- four three */
+.wide-blue-header{
+    height: 54px;
+    font-family: diodrumBold;
+    font-size: 18px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white!important;
+}
+.thin-blue-header{
+    height: 31px;
+    font-family: diodrumSemibold;
+    font-size: 18px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.description-tr td{
+    padding-top: 20px!important;
+    padding-bottom: 20px!important;
+    color: rgb(0, 50, 85);
+    font-size: 16px;
+    font-family: diodrumSemibold;
+}
+.height130{
+    height: 130px!important;
+}
+.go-to-table{
+    font-size: 18px;
+    font-family: diodrumSemibold;
+    color: rgb(0, 50, 85);
+}
 /* -------------------------------------------------- global classes */
 .mt-30{
     margin-top: 30px!important;
@@ -143,11 +188,12 @@ input{
     border-radius: 0!important;
 }
 .green-color{
-    color: #00a551;
-    font-weight: bold;
+    color: rgb(0, 165, 81);
+    font-size: 18px;
+    font-family: 'diodrumSemibold';
 }
 .gray-bg{
-    background-color: #b3b3b3!important;
+    background-color: rgb(230, 231, 232)!important;
 }
 .dark-blue-bg{
     background-color: #003054;
@@ -181,12 +227,6 @@ input{
 input ,button{
     height: 31px!important;
 }
-.min-height30{
-    min-height: 30px;
-}
-.min-height15{
-    min-height: 15px;
-}
 .pointer{
     cursor: pointer!important;
 }
@@ -195,4 +235,23 @@ input ,button{
 }
 .pb-40{
     padding-bottom: 40px!important;
+}
+.mt-50{
+    margin-top: 50px!important;
+}
+table tr td:first-child{
+    padding-right: 10px!important;
+    font-size: 16px;
+    font-family: diodrumSemibold;
+}
+table{
+    color: rgb(0, 50, 85);
+    font-size: 16px;
+    font-family: diodrumMedium;
+}
+table tr{
+    height: 31px!important;
+}
+.fa-check{
+    font-size: 13px!important;
 }
