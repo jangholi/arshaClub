@@ -22,10 +22,9 @@ body{
     min-height: 132px;
 }
 .blue-title{
-    /*font-size: 28px;*/
-    font-size: 1rem;
-    color: #0060ae;
-    font-weight: bold;
+    font-size: 18px;
+    color: #0060AE;
+    font-family: 'diodrumSemibold';
 }
 .slick-dots{
     bottom: 16px!important;
