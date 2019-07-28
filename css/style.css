@@ -162,6 +162,29 @@ html{
     font-family: diodrumSemibold;
     color: rgb(0, 50, 85);
 }
+@media only screen and (max-width: 576px) {
+    table tr.wide-blue-header td{
+        font-size: 13px!important;
+    }
+    .description-tr td{
+        font-size: 13px!important;
+    }
+    table tr td:first-child{
+        font-size: 13px!important;
+    }
+    .go-to-table {
+        font-size: 15px!important;
+    }
+    .green-color {
+        font-size: 15px!important;
+    }
+    .blue-title {
+        font-size: 15px;
+    }
+    .light-title {
+        font-size: 15px;
+    }
+}
 /* -------------------------------------------------- footer */
 .border-btm-footer{
     border-bottom: 1px solid white;
