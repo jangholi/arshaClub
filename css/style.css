@@ -45,22 +45,6 @@ body{
         background-image: url("../assets/images/about-arsha-mobile.jpg");
     }
 }
-@media only screen and (min-width: 577px) {
-    .large-table{
-        display: block!important;
-    }
-    .small-table{
-        display: none!important;
-    }
-}
-@media only screen and (max-width: 577px) {
-    .large-table{
-        display: none!important;
-    }
-    .small-table{
-        isplay: block!important;
-    }
-}
 .blue-title{
     font-size: 18px;
     color: #0060AE;
