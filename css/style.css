@@ -242,6 +242,11 @@ table tr td:first-child{
     font-size: 16px;
     font-family: diodrumSemibold;
 }
+table tr.wide-blue-header td{
+    padding-right: 10px!important;
+    font-size: 16px;
+    font-family: diodrumBold!important;
+}
 table{
     color: rgb(0, 50, 85);
     font-size: 14px;
