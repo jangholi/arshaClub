@@ -1,5 +1,9 @@
 body{
     font-family: 'diodrum'!important;
+    height: 100%;
+}
+html{
+    height: 100%;
 }
 /* -------------------------------------------------- first section */
 .slider{
@@ -8,8 +12,17 @@ body{
 .slider img{
     width: 100%;
 }
-.slick-slide{
+.slick-slider{
     height: calc(100% - 212px)!important;
+}
+.slick-track{
+    height: 100%!important;
+}
+.slick-list{
+    height: 100%!important;
+}
+.slick-slide{
+    height: 100%!important;
 }
 .logo-intro{
     min-height: 80px!important;
