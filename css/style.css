@@ -261,3 +261,6 @@ table tr{
 .fa-minus:before{
     font-size: 7px!important;
 }
+.ml-20{
+    margin-left: 20px;
+}
