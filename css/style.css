@@ -253,3 +253,6 @@ table tr{
 .fa-check{
     font-size: 13px!important;
 }
+.fa-minus:before{
+    font-size: 7px!important;
+}
