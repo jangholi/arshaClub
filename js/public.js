@@ -44,5 +44,8 @@ $(".into-slider").slick({
     autoplay: true,
     autoplaySpeed: 1500,
     arrows: false,
-    rtl: true
+    rtl: true,
+    pauseOnFocus: false,
+    pauseOnHover: false,
+    pauseOnDotsHover: false
 });
