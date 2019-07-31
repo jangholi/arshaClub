@@ -41,10 +41,10 @@ html{
         min-height: 81px;
     }
     .section2-right-div{
-        background-image: url("../assets/images/about-arsha-web.jpg");
+        background-image: url("../assets/images/about-arsha.svg");
     }
 }
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 994px) {
     .registery-div{
         border-top: 1px solid #0060AE;
         border-bottom: 1px solid #0060AE;
@@ -55,7 +55,7 @@ html{
         padding-left: 40px;
     }
     .section2-right-div{
-        background-image: url("../assets/images/about-arsha-mobile.jpg");
+        background-image: url("../assets/images/about-arsha.svg");
     }
 }
 .blue-title{
