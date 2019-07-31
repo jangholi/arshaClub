@@ -78,19 +78,19 @@ html{
     left: 0;
 }
 .first-slide{
-    background-image: url("../assets/images/slide-01.jpg");
+    background-image: url("../assets/images/slide-01.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
 }
 .second-slide{
-    background-image: url("../assets/images/slide-02.jpg");
+    background-image: url("../assets/images/slide-02.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
 }
 .third-slide{
-    background-image: url("../assets/images/slide-03.jpg");
+    background-image: url("../assets/images/slide-03.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
